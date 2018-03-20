@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site url="http://www.23wx.cc" title="顶点小说" charset="GBK">
+		<novel>
+			<chapter>
+				<list-selector>#list dd a</list-selector>
+				<detail-title-selector>.bookname h1:0</detail-title-selector>
+				<detail-content-selector>#content</detail-content-selector>
+				<detail-prev-selector>.bottem2 a:1</detail-prev-selector>
+				<detail-next-selector>.bottem2 a:3</detail-next-selector>
+			</chapter>
+		</novel>
+	</site>
+	<site url="http://www.kanshuzhong.com" title="看书中" charset="GBK" >
+		<novel>
+			<novel-selector>.book_list tr</novel-selector>
+			<novel-next-page-selector>#pagelink .next</novel-next-page-selector>
+			<chapter>
+		        <list-selector>.bookcontent dl dd a</list-selector>
+				<detail-title-selector>.ctitle</detail-title-selector>
+				<detail-content-selector>.textcontent</detail-content-selector>
+				<detail-prev-selector>.readlink a:1</detail-prev-selector>
+				<detail-next-selector>.readlink a:3</detail-next-selector>
+			</chapter>
+		</novel>
+	</site>
+</sites>
